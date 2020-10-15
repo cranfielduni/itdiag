@@ -17,7 +17,7 @@ cd $Cranfield
 Invoke-WebRequest http://pki.cranfield.ac.uk/pki/certs/Cranfield%20University%20Root%20CA.crt -Outfile "$Cranfield\CranfieldRootCA.crt"
 Import-Certificate "$Cranfield\CranfieldRootCA.crt" -CertStoreLocation Cert:\CurrentUser\Root
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-Invoke-WebRequest https://raw.githubusercontent.com/cranfielduni/itdiag/main/windowsdiag.ps1 -Outfile "$Cranfield\windowsdiag.ps1"
+Invoke-WebRequest https://github.com/cranfielduni/itdiag/releases/download/v1.0/windowsdiag.ps1 -Outfile "$Cranfield\windowsdiag.ps1"
 ```
 
 Paste it into your Powershell window and follow onscreen prompts.  Hit `Enter` to run the final line
