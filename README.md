@@ -19,4 +19,4 @@ At present this script:
 - Retrieves Eduroam wireless details (if saved)
 - Retrieves the MS connection test page
 - Retrieves service states
-- Copies results to a text document on the host as well as uploading to a central store
+- Copies results to a text document

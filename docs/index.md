@@ -37,6 +37,6 @@ Paste it into your Powershell window and hit `Enter` to run
 [![Running script](assets/running.gif)
 *click to enlarge*](assets/running.gif)
 
-**4. Make a note of the results locations**
+**4. Send the output file to IT**
 
-These will need to be supplied to IT staff for them to view your results
+The `.cranfield-diags` folder should open automatically (if not it can be found by going to `%userprofile%\.cranfield-diags`).  In here will be txt file containing the test results that can be sent to IT
