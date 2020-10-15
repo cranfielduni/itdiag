@@ -1,5 +1,7 @@
 # IT Diagnostics Script
 
+[User instructions can be found at https://cranfielduni.github.io/itdiag/](https://cranfielduni.github.io/itdiag/)
+
 At present this script:
 - Retrieves host and user details
 - Retrieves last boot time
